@@ -6,7 +6,7 @@ issuer:
   email: mmorlock@example.com
 
 image:
-  name: # TODO: publish image
+  name: simongraband/cdt-cloud-blueprint:deployed
   pullSecret: ""
   timeoutStrategy: "FIXEDTIME"
   timeoutLimit: "30"
@@ -18,7 +18,7 @@ hosts:
   instance: ws.192.168.39.123.nip.io
 
 landingPage:
-  image: # TODO: publish landing page
+  image: simongraband/cdt-cloud-try-now-page:deployed
   appDefinition: "theia-cloud-demo"
 
 keycloak:

@@ -6,7 +6,7 @@ issuer:
   email: jfaltermeier@eclipsesource.com
 
 image:
-  name: # TODO: publish image
+  name: simongraband/cdt-cloud-blueprint:deployed
   pullSecret: ""
   timeoutStrategy: "FIXEDTIME"
   timeoutLimit: "30"
@@ -18,7 +18,7 @@ hosts:
   instance: ws.34.159.89.224.nip.io
 
 landingPage:
-  image: # TODO: publish image
+  image: simongraband/cdt-cloud-try-now-page:deployed
   appDefinition: "theia-cloud-demo"
   ephemeralStorage: true
 

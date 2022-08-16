@@ -1,0 +1,10 @@
+.github/
+.git/
+
+doc/
+helm/
+
+# JS/TS build artifacts
+node/**/node_modules/
+node/**/build/
+node/**/dist/
